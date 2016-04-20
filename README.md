@@ -1,5 +1,7 @@
 # SesionTesting03
 
-#Pruebas realizadas hasta el momento
+##Pruebas realizadas hasta el momento
 
-	- Categoria
+
+	> - Categoria
+	> - Existencia
