@@ -35,6 +35,27 @@ public class CategoriaTest {
 	}
 	
 	@Test
+	public void categoriaGetCodeLengthGreaterThanFive(){
+		/* Arrange */
+		categoria = new Categoria("Guitarras Electricas", "000001");
+		
+		/* Act */
+		String resultado = categoria.getCodigo();
+		
+		/* Assert */
+		assertThat(resultado,is("00000"));
+	}
+	
+	@Test(expected = NullPointerException.class)
+	public void categoriaNullPointerException(){
+		/* Arrange */
+		categoria = new Categoria("Guitarras Electricas", null);
+		
+		/* Act */
+		String resultado = categoria.getCodigo();
+	}
+	
+	@Test
 	public void categoriaSetName(){	
 		/* Arrange */
 		categoria = new Categoria("Guitarras Electricas", "0001");
