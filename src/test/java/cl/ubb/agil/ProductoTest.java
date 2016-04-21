@@ -269,7 +269,7 @@ public class ProductoTest {
 		String resultado = producto.getNombre();
 		
 		/* Assert */
-		assertThat(resultado, is(resultado));
+		assertThat(resultado, is("Guitarra Gibson Les Paul Studio"));
 	}
 	
 	@Test
