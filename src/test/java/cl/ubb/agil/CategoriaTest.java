@@ -1,3 +1,8 @@
+/**
+ * Nombre: Nicolas Oñate
+ * Asignatura: Testing en desarrollo ágil
+ * Fecha: 20/04/2016
+ */
 package cl.ubb.agil;
 
 import static org.hamcrest.CoreMatchers.is;
